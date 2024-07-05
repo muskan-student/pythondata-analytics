@@ -1,7 +1,11 @@
 from turtle import  *
-size=10
-for i in range(size):
-    fd(120)
-    rt(360/size)
-     
+s = Screen()
+s.setup(1000,700)
+color = ['blue','purple']
+pencolor('green')
+pensize(3)
+
+
+mainloop()
+
 
